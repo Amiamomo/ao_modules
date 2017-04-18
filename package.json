@@ -1,6 +1,6 @@
 {
   "name": "ao_modules",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "test:single": "mocha src/main.test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "https://github.com/Amiamomo/ao_modules.git"
   },
