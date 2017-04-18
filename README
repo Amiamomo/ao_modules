@@ -6,3 +6,5 @@ Create a new reportory on https://github.com/Amiamomo -> ao_modules
 git remote add origin https://github.com/Amiamomo/ao_modules.git
 
 https://travis-ci.org/Amiamomo
+
+npm run commit
