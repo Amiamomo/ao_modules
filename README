@@ -1,7 +1,7 @@
 Set up GIt : 
 Create a new reportory on https://github.com/Amiamomo -> ao_modules
 	git add  -A
-	git commit  
+	git commit   
 
 git remote add origin https://github.com/Amiamomo/ao_modules.git
 
