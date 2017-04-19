@@ -1,6 +1,6 @@
 {
   "name": "ao_modules",
-  "version": "0.0.0-development",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "commit": "git-cz",
     "test": "mocha src/main.test.js -w",
     "test:single": "mocha src/main.test.js",
+    "run:standalone": "node src/main_standalone.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
