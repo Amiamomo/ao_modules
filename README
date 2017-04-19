@@ -8,3 +8,8 @@ git remote add origin https://github.com/Amiamomo/ao_modules.git
 https://travis-ci.org/Amiamomo
 
 npm run commit
+git push -u origin master
+
+1) Pushing a new release manualy
+
+ 
