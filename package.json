@@ -11,13 +11,14 @@
     "test": "mocha src/main.test.js -w",
     "test:single": "mocha src/main.test.js",
     "run:standalone": "node src/main_standalone.js",
+    "run:watchst": "onchange src/main_standalone.js -- node src/main_standalone.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Amiamomo/ao_modules.git"
   },
-  "keywords": [ 
+  "keywords": [
     "Websocket"
   ],
   "author": "Amiamomo",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/Amiamomo/ao_modules#readme",
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "webpack": "^2.4.0",
     "webpack-dev-server": "^2.4.2"
   },
@@ -40,6 +42,7 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "mocha": "^3.2.0",
+    "onchange": "^3.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "semantic-release": "^6.3.2"
