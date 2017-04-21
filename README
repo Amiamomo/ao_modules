@@ -13,11 +13,12 @@ git push -u origin master
 1) Pushing a new release manualy
    Change release number in package.json
    git add -A
-   git commit -m 'Message'
-		git tag 1.1.0
+   git commit -m "Passage version 2.0.1"
+		git tag 2.0.1
 		git push
 		git push --tags
-	npm publish
+	[npm publish is done by travis]
+
 2) Pushing a semantic release
    git add -A
    npm run commit

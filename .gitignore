@@ -1,1 +1,3 @@
 node_modules
+# Environement file - Dev to be excluded
+.env.dev*
